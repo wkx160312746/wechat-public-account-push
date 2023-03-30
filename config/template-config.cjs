@@ -5,13 +5,16 @@ const TEMPLATE_CONFIG = [
     title: '亲爱滴宝贝,早上好~',
     desc: `
 {{date.DATA}} 
-城市：**{{city.DATA}}**
+
+美好的早晨从**我爱你**开始~!
+
+下面是闽江学院今天的天气~
 
 天气：**{{weather.DATA}}**
 
 气温: **{{min_temperature.DATA}} ~ {{max_temperature.DATA}}**
 
-男友提示: **{{notice.DATA}} 哦~**
+男友提示: **{{notice.DATA}}哦~**
 
 ---
 

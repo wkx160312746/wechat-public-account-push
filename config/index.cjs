@@ -79,8 +79,24 @@ const USER_CONFIG = {
       customizedDateList: [
         // 恋爱纪念日
         { keyword: 'love_day', date: '2022-12-03' },
+      ],
+      SLOT_LIST: [
         // 快递
-        { keyword: 'no_express', date: '中通快递:3-3-0609' },
+        { keyword: 'no_express',
+          contents: [
+            '中通快递:3-3-0609',
+          ]
+        },
+        // 这样配置的话，就会每次随机选一句话发送
+        {
+          keyword: 'lover_prattle',
+          contents: [
+            '因为太喜欢你，所以看谁都像是情敌。',
+            '申请成为你爱里的永久居民。',
+            '你很傻，你很笨，可我还是很羡慕你，因为你有我',
+            '遇见你，就好像捡到了100斤的运气'
+          ],
+        }
       ],
     },
   ],
