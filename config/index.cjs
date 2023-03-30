@@ -82,10 +82,9 @@ const USER_CONFIG = {
       ],
       SLOT_LIST: [
         // 快递
-        { keyword: 'no_express',
-          contents: [
-            '中通快递:3-3-0609',
-          ]
+        {
+          keyword: 'no_express',
+          contents: '中通快递:3-3-0609'
         },
         // 这样配置的话，就会每次随机选一句话发送
         {
@@ -109,7 +108,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '4baa2f2fa8194d6892e100e9fc2d5f71',
+      id: '',
     }
   ],
 
