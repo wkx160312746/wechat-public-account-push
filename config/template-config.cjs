@@ -2,21 +2,25 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '亲爱滴宝贝,早上好~',
     desc: `
 {{date.DATA}} 
-城市：{{city.DATA}} 
+城市：**{{city.DATA}}**
+
 天气：**{{weather.DATA}}**
-气温: {{min_temperature.DATA}} ~ {{max_temperature.DATA}} 
-男友提示: {{notice.DATA}}
+
+气温: **{{min_temperature.DATA}} ~ {{max_temperature.DATA}}**
+
+男友提示: **{{notice.DATA}} 哦~**
 
 ---
 
-未拿快递: {{express_status.DATA}}
+未拿快递: **{{no_express.DATA}}**
 
 ---
 
-今天是我们恋爱的第{{love_day.DATA}}天
+今天是我们恋爱的第**{{love_day.DATA}}**天
+
 {{birthday_message.DATA}}
 
 --- 

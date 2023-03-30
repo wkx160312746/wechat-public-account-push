@@ -52,10 +52,10 @@ const USER_CONFIG = {
   APP_ID: '',
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
-  IS_SHOW_COLOR: true,
+
   PROVINCE: '福州',
   CITY: '闽侯',
-
+  IS_SHOW_COLOR: true,
   USERS: [
     {
       // 想要发送的人的名字
@@ -67,10 +67,6 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '宝贝', year: '2003', date: '12-11',
-        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '宝贝', year: '2004', date: '01-02',
@@ -84,7 +80,7 @@ const USER_CONFIG = {
         // 恋爱纪念日
         { keyword: 'love_day', date: '2022-12-03' },
         // 快递
-        { keyword: 'express_status', date: '中通快递1-6货架,取件码3-3-0609' },
+        { keyword: 'no_express', date: '中通快递:3-3-0609' },
       ],
     },
   ],
