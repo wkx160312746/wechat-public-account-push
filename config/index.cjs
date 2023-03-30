@@ -84,7 +84,7 @@ const USER_CONFIG = {
         // 快递
         {
           keyword: 'no_express',
-          contents: '中通快递:3-3-0609'
+          contents: 'ZT:3-3-0609'
         },
         // 这样配置的话，就会每次随机选一句话发送
         {
