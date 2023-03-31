@@ -18,8 +18,11 @@ const TEMPLATE_CONFIG = [
 
 ---
 
+考完试累了吧~吃个外卖犒劳一下
+
+今日外卖:  **{{waimai.DATA}}**
+
 未拿快递: **{{no_express.DATA}}**
-男友外卖: **{{waimai.DATA}}**
 
 ---
 
