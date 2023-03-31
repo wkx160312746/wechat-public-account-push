@@ -2,13 +2,13 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱滴宝贝,早上好~',
+    title: '亲爱滴宝贝,下午好~',
     desc: `
 {{date.DATA}} 
 
-美好的早晨从**我爱你**开始~!
+美好的一天从**我爱你**开始~!
 
-下面是**闽江学院**今天的天气~
+下面是**闽侯**今天的天气~
 
 天气：**{{weather.DATA}}**
 
@@ -19,6 +19,7 @@ const TEMPLATE_CONFIG = [
 ---
 
 未拿快递: **{{no_express.DATA}}**
+男友外卖: **{{waimai.DATA}}**
 
 ---
 
