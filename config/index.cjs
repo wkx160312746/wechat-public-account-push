@@ -86,7 +86,12 @@ const USER_CONFIG = {
     // 快递
     {
       keyword: 'no_express',
-      contents: '中通快递:3-3-0609'
+      contents: '中通:3-3-0609, 韵达:12-1-2815'
+    },
+    // 外卖
+    {
+      keyword: 'waimai',
+      contents: '花甲粉丝-微辣'
     },
     // 这样配置的话，就会每次随机选一句话发送
     {
