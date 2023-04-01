@@ -2,11 +2,11 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱滴宝贝,晚上好鸭~',
+    title: '亲爱滴宝贝,早上好鸭~',
     desc: `
 {{date.DATA}} 
 
-美好的一天从**我爱你**结束~!
+美好的一天从**我爱你**开始~!
 
 下面是**闽侯**今天的天气~
 
@@ -47,27 +47,7 @@ const TEMPLATE_CONFIG = [
       成功用户: {{success_post_ids.DATA}}
       
       失败用户: {{fail_post_ids.DATA}}
-{{date.DATA}} 
-
-美好的一天从**我爱你**结束~!
-
-下面是**闽侯**今天的天气~
-
-天气：**{{weather.DATA}}**
-
-气温: **{{min_temperature.DATA}} ~ {{max_temperature.DATA}}**
-
-男友提示: **{{notice.DATA}}哦~**
-
----
-
-未拿快递: **{{no_express.DATA}}**
-
----
-
-今天是我们恋爱的第**{{love_day.DATA}}**天
-
-{{birthday_message.DATA}}
+      
     `
   },
 ]
