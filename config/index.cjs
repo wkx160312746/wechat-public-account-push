@@ -86,7 +86,7 @@ const USER_CONFIG = {
     // 快递
     {
       keyword: 'no_express',
-      contents: '暂无'
+      contents: '中通:6-2-9030'
     },
     // 外卖
     {
