@@ -55,11 +55,11 @@ const USER_CONFIG = {
 
   PROVINCE: '福州',
   CITY: '闽侯',
-  IS_SHOW_COLOR: true,
+  IS_SHOW_COLOR: false,
   USERS: [
     {
       // 想要发送的人的名字
-      name: '我滴宝贝~早上好呀!',
+      name: '宝贝早上好~记得带🔑!',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'c5eca7dfa93b4754bbe50a411380cc35',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
