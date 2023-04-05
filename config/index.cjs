@@ -49,9 +49,9 @@ const USER_CONFIG = {
     courseSchedule: false,
   },
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx96a194d8e2431f26',
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'ccc170c5b0ad56acbd6c89f2ea8b2bf9',
 
   PROVINCE: '福州',
   CITY: '闽侯',
