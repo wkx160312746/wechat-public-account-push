@@ -71,6 +71,9 @@ const USER_CONFIG = {
         {
           type: '生日', name: '宝贝', year: '2004', date: '01-02',
         },
+         {
+          type: '生日', name: '小王', year: '1999', date: '11-07',
+        },
         {
           type: '节日', name: '相识纪念日', year: '2022', date: '11-02',
         },
