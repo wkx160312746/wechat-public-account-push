@@ -76,11 +76,14 @@ const USER_CONFIG = {
         },
         {
           type: '节日', name: '相识纪念日', year: '2022', date: '11-02',
+        },{
+          type: '节日', name: '我们相间的日子', year: '2023', date: '04-28',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 恋爱纪念日
+        { keyword: 'love_day', date: '2022-12-03' },
         { keyword: 'love_day', date: '2022-12-03' },
       ],
     },
