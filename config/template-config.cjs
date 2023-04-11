@@ -20,8 +20,6 @@ const TEMPLATE_CONFIG = [
 
 ---
 
-我们还有 **{{jianmian.DATA}}** 天见面
-
 未拿快递: **{{no_express.DATA}}**
 
 ---
