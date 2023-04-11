@@ -16,7 +16,7 @@ const TEMPLATE_CONFIG = [
 
 气温: **{{min_temperature.DATA}} ~ {{max_temperature.DATA}}**
 
-男友提示: **{{notice.DATA}}哦~**
+男友提示: **可以带一把伞放在车篮里哦~**
 
 ---
 
