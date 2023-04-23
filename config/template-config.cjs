@@ -2,13 +2,11 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '宝贝早上好呀~记得带充电器~',
+    title: '宝贝早上好呀~记得带🔑',
     desc: `
 {{date.DATA}} 
 
 美好的一天从**我爱你**开始~!
-
-军训要多涂防晒哦!!特别是脖子后面!
 
 下面是**闽侯县**今天的天气~
 
@@ -16,7 +14,7 @@ const TEMPLATE_CONFIG = [
 
 气温: **{{min_temperature.DATA}} ~ {{max_temperature.DATA}}**
 
-男友提示: **可以带一把伞放在车篮里哦~**
+男友提示: **{{notice.DATA}}**
 
 ---
 
