@@ -92,12 +92,12 @@ const USER_CONFIG = {
     // 快递
     {
       keyword: 'no_express',
-      contents: '韵达12-2-10946'
+      contents: '5-10:韵达14-2-9725'
     },
     // 外卖
     {
       keyword: 'waimai',
-      contents: '花甲粉丝-微辣'
+      contents: ''
     },
     // 这样配置的话，就会每次随机选一句话发送
     {
