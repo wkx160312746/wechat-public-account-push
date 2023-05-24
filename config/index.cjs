@@ -92,7 +92,7 @@ const USER_CONFIG = {
     // 快递
     {
       keyword: 'no_express',
-      contents: '5-10:韵达14-2-9725'
+      contents: ''
     },
     // 外卖
     {
